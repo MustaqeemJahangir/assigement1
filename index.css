@@ -1,0 +1,341 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: #f5ebdc;
+
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left: 180px; */
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid rgb(192, 175, 175) ;
+    /* top: 1px; */
+    z-index: 20px;
+
+}
+.div-one{
+    padding-left: 200px;
+}
+.div-three{
+    padding-right: 150px;
+}
+
+.div-two>img{
+    width: 40px;
+    height: 40px;
+}
+.div-one>img{
+    width: 30px;
+    height: 30px;
+
+}
+.butone{
+    background-color: #d62300;
+    color: #ffff;
+    border-color: #d62300;
+
+}
+.buttwo{
+    background-color: #502314;
+    color: #ffff;
+    border-color: #502314;
+}
+
+.main-body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    
+
+
+
+}
+.body-one>h1{
+    font-weight: 900;
+}
+.main-body>div>img{
+    height: 450px;
+
+}
+.body-one{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20%;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 50px;
+    color: #502314;
+}
+.body-one>button{
+    width: 210px;
+    height: 45px;
+    font-size: 25px;
+    color: transparent;
+    /* background-color: #d62300; */
+    border-radius: 20px;
+    border-color:#d62300 ;
+    text-transform:capitalize ;
+}
+
+.body-one>button>.sa{
+    width: 210px;
+    height: 45px;
+    font-size: 25px;
+    /* color:#d62300; */
+    background-color:#f5ebdc;
+    border-radius: 20px;
+    border-color:#d62300 ;
+   
+}
+.sa>span{
+    background-color: #f5ebdc;
+    color: #d62300;
+}
+.ca{
+    background-color: #d62300;
+}
+.ca>span{
+    background-color: #d62300;
+    color: #f5ebdc;
+}
+.card>img{
+    width: 524px;
+}
+.col{
+    width: 550px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+.op{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    /* position: sticky; */
+    z-index:10;
+    
+}
+p{
+    color: #502314;
+
+}
+.card-title{
+    color: #502314;
+    
+}
+
+
+.card-body ,.card-title ,.card-text{
+    background-color: #ffff;
+}
+.sl ,h6{
+    background-color: #ffff;
+}
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.fpic>img{
+    width: 203PX;
+    height: 59PX;
+}
+.wa{
+    width:300px;
+    height: 70px;
+}
+.footer-one>img{
+    width: 500px;
+    height: 550px;
+}
+.footer-two{
+    width: 45%;
+    text-transform: capitalize;
+
+
+
+}
+.footer-two>div{
+    padding-bottom: 40px;
+}
+.fhead>h1{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #502314;
+
+
+}
+
+.fdescription{
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+.last{
+    border-radius:20px ;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding-left: 280px;
+    background-color: #502314;
+    color: #ffff;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.last>a{
+    text-decoration: underline;
+    color: #ffff;
+    background-color: #502314;
+}
+.last>p{
+    color: #ffff;
+    background-color: #502314;
+}
+.qa{
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: #502314;
+    background-color:#f5ebdc;
+    text-decoration: none;
+    padding: 0px 100px;
+    padding-bottom: -30px;
+
+}
+li{
+    display: inline-block;
+    background-color:#f5ebdc;
+}
+.fix{
+    /* padding-top: 5px; */
+    margin-top: 5px;
+    padding-top: 5px;
+    background-color:#f5ebdc;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30px;
+    position: fixed;
+    /* position: absolute; */
+    width: 100%;
+    top: 606px;
+}
+ul{
+    background-color:#f5ebdc;
+    margin: 50px;
+}
+
+
+
+
+
+
+@media only screen and (max-width : 600px ){
+    .main-header{
+        display:flex;
+        justify-content: space-between;
+        /* width: 100%; */
+        padding: 0%;
+
+        
+    }
+    .main-header>div>img{
+        width: 20px;
+        height: 20px;
+        
+    }
+    .div-one{
+        padding: 0%;
+
+    }
+    .div-three{
+        padding: 0%;
+    }
+    .buttwo{
+        display: none;
+    }
+    .main-body{
+        display: block;
+    }
+    .body-one{
+        display: block;
+        justify-items: center;
+
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
